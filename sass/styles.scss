@@ -1,0 +1,179 @@
+$primaryOnRed: #cf901bff;
+$secondaryOnRed: #D8AE25;
+$TertiaryOnRed: #e4ca5dff;
+$accentBackground: #991903;
+$background: #bc2d15ff;
+
+$cardDropShadow: 5px 5px 20px black;
+
+body{
+    background-color: black;
+    font-family: Alconia;
+}
+
+h1{
+    font-size: 2.3em;
+    font-family: MedievalSharp;
+    color: $primaryOnRed;
+    padding-left: 0.8em;
+}
+
+.header{
+    background-color: $accentBackground;
+
+    nav{
+        margin: 2em;
+        text-align: right;
+        a{
+            color: $primaryOnRed;
+            text-decoration: none;
+            text-align: center;
+            font-weight: 100;
+            font-size: 1.4em;
+            padding-right: 1.5em;
+        }
+        a:hover{
+            color: $secondaryOnRed;
+        }
+    }
+
+    .title{
+        img{
+            max-width: 75px;
+            padding: 1em;
+        }
+    }
+}
+
+.footer{
+    background-color: $accentBackground;
+    align-items: center;
+    a img{
+        padding: 1em;
+        min-width: 40px;
+        max-width: 40px;
+    }
+
+    .logo{
+        justify-content: center;
+        align-items: center;
+        color: $primaryOnRed;
+        img{
+            max-width: 100px;
+        }
+    }
+
+    .contact{
+        justify-content: right;
+
+        color: $primaryOnRed;
+        font-weight: 100;
+        padding-right: 2em;
+        a{
+            color: $primaryOnRed;
+            text-decoration: none;
+            text-align: center;
+            font-weight: 100;
+            padding-left: 10px;
+        }
+        a:hover{
+            color: $secondaryOnRed;
+        }
+    }
+}
+
+.content{
+    background-color: $background;
+
+    .content-area{
+        padding: 1em;
+    
+        margin-top: 1em;
+        margin-bottom: 1em;
+        margin-left: 2em;
+        margin-right: 2em;
+    
+        //Shadow
+        border: solid $TertiaryOnRed 1px; 
+        box-shadow: $cardDropShadow;
+        background-color: $secondaryOnRed;
+    
+        .content-body{
+            .band-card{
+                //Shadow
+                border: solid $TertiaryOnRed 1px; 
+                box-shadow: $cardDropShadow;
+    
+                //padding
+                margin: 1em;
+                padding: 1em;
+    
+                background-color: $TertiaryOnRed;
+
+                max-width: 300px;
+    
+                img{
+                    max-width: 300px;
+                    border: solid 1px; 
+                    box-shadow: 0 0 20px black; 
+                }
+            }
+    
+            .concert-card{
+                background-color: $TertiaryOnRed;
+
+                text-align: center;
+    
+                padding: 1em;
+                margin: 1em;
+
+                max-width: 400px;
+
+                span{
+                    display: block;
+                }
+    
+                button{
+                    box-shadow:inset 0px 34px 0px -15px $accentBackground;
+                    background-color:$background;
+                    border:1px solid #241d13;
+                    display:inline-block;
+                    cursor:pointer;
+                    color: $secondaryOnRed;
+                    font-size:0.8em;
+                    font-weight:bold;
+                    padding:9px 23px;
+                    text-decoration:none;
+                    text-shadow:0px -1px 0px $accentBackground;
+                }
+    
+                button:hover{
+                    background-color: $accentBackground;
+                }
+    
+                button:active {
+                    position:relative;
+                    top:1px;
+                }
+    
+                .venue{
+                    font-size: 2.3em;
+                    font-family: MedievalSharp;
+                    border-bottom: 1px solid black;
+                }
+
+                .date, .price{
+                    border-right: 1px solid black;
+                }
+
+                .date, .ages, .price, .buy{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-top: 1em;
+                }
+            }
+        }
+    }
+}
+

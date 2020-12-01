@@ -1,0 +1,93 @@
+.body {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.4fr 15fr 0.4fr;
+  gap: 0px 0px;
+  grid-template-areas: "header" "content" "footer";
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr 0.8fr 1.2fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-template-areas: "title . . nav";
+}
+
+.title {
+  grid-area: title;
+  display: flex;
+}
+.title h1 {
+  display: inline;
+}
+
+.nav {
+  grid-area: nav;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 2.5fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-template-areas: "social logo contact";
+}
+
+.social {
+  grid-area: social;
+  display: flex;
+}
+
+.logo {
+  grid-area: logo;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact {
+  grid-area: contact;
+  display: flex;
+}
+
+.content-area {
+  display: flex;
+  flex-direction: column;
+}
+.content-area .content-body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.content-area .content-body .band-card {
+  display: flex;
+  flex-flow: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+.content-area .content-body .concert-card {
+  display: grid;
+}
+.content-area .content-body .concert-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas: "venue venue" "date ages" "price buy";
+}
+.content-area .content-body .venue {
+  grid-area: venue;
+}
+.content-area .content-body .price {
+  grid-area: price;
+}
+.content-area .content-body .ages {
+  grid-area: ages;
+}
+.content-area .content-body .date {
+  grid-area: date;
+}
+.content-area .content-body .buy {
+  grid-area: buy;
+}
+
+/*# sourceMappingURL=layout.css.map */

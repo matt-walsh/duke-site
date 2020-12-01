@@ -1,0 +1,13 @@
+{
+  "name": "webd3100-dukes",
+  "version": "1.0.0",
+  "description": "Web site for the band \"Dukes of Ducarnu\"",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "sass --watch sass/:css/"
+  },
+  "author": "Matt Walsh",
+  "license": "UNLICENSED",
+  "dependencies": {}
+}

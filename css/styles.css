@@ -1,0 +1,141 @@
+body {
+  background-color: black;
+  font-family: Alconia;
+}
+
+h1 {
+  font-size: 2.3em;
+  font-family: MedievalSharp;
+  color: #cf901bff;
+  padding-left: 0.8em;
+}
+
+.header {
+  background-color: #991903;
+}
+.header nav {
+  margin: 2em;
+  text-align: right;
+}
+.header nav a {
+  color: #cf901bff;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 100;
+  font-size: 1.4em;
+  padding-right: 1.5em;
+}
+.header nav a:hover {
+  color: #D8AE25;
+}
+.header .title img {
+  max-width: 75px;
+  padding: 1em;
+}
+
+.footer {
+  background-color: #991903;
+  align-items: center;
+}
+.footer a img {
+  padding: 1em;
+  min-width: 40px;
+  max-width: 40px;
+}
+.footer .logo {
+  justify-content: center;
+  align-items: center;
+  color: #cf901bff;
+}
+.footer .logo img {
+  max-width: 100px;
+}
+.footer .contact {
+  justify-content: right;
+  color: #cf901bff;
+  font-weight: 100;
+  padding-right: 2em;
+}
+.footer .contact a {
+  color: #cf901bff;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 100;
+  padding-left: 10px;
+}
+.footer .contact a:hover {
+  color: #D8AE25;
+}
+
+.content {
+  background-color: #bc2d15ff;
+}
+.content .content-area {
+  padding: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 2em;
+  margin-right: 2em;
+  border: solid #e4ca5dff 1px;
+  box-shadow: 5px 5px 20px black;
+  background-color: #D8AE25;
+}
+.content .content-area .content-body .band-card {
+  border: solid #e4ca5dff 1px;
+  box-shadow: 5px 5px 20px black;
+  margin: 1em;
+  padding: 1em;
+  background-color: #e4ca5dff;
+  max-width: 300px;
+}
+.content .content-area .content-body .band-card img {
+  max-width: 300px;
+  border: solid 1px;
+  box-shadow: 0 0 20px black;
+}
+.content .content-area .content-body .concert-card {
+  background-color: #e4ca5dff;
+  text-align: center;
+  padding: 1em;
+  margin: 1em;
+  max-width: 400px;
+}
+.content .content-area .content-body .concert-card span {
+  display: block;
+}
+.content .content-area .content-body .concert-card button {
+  box-shadow: inset 0px 34px 0px -15px #991903;
+  background-color: #bc2d15ff;
+  border: 1px solid #241d13;
+  display: inline-block;
+  cursor: pointer;
+  color: #D8AE25;
+  font-size: 0.8em;
+  font-weight: bold;
+  padding: 9px 23px;
+  text-decoration: none;
+  text-shadow: 0px -1px 0px #991903;
+}
+.content .content-area .content-body .concert-card button:hover {
+  background-color: #991903;
+}
+.content .content-area .content-body .concert-card button:active {
+  position: relative;
+  top: 1px;
+}
+.content .content-area .content-body .concert-card .venue {
+  font-size: 2.3em;
+  font-family: MedievalSharp;
+  border-bottom: 1px solid black;
+}
+.content .content-area .content-body .concert-card .date, .content .content-area .content-body .concert-card .price {
+  border-right: 1px solid black;
+}
+.content .content-area .content-body .concert-card .date, .content .content-area .content-body .concert-card .ages, .content .content-area .content-body .concert-card .price, .content .content-area .content-body .concert-card .buy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1em;
+}
+
+/*# sourceMappingURL=styles.css.map */

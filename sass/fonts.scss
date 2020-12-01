@@ -1,0 +1,12 @@
+$medievalPath: '../assets/fonts/MedievalSharp-Regular.ttf';
+$aclonicaPath: '../assets/fonts/Aclonica-Regular.ttf';
+
+@font-face {
+    font-family: MedievalSharp;
+    src: url($medievalPath);
+  }
+
+@font-face {
+  font-family: Alconia;
+  src: url($aclonicaPath);
+}
